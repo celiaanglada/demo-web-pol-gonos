@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<head>
+	<title>POLIGONO REGULARES</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.38" />
+	<link href="estilo.css"rel="stylesheet" type="text/css">
+
+<script languague="javascript">
+       
+        function mostrar(p1) {
+            document.getElementById(p1).style.display="block";
+                     
+        }
+
+ 
+         function cerrar(p1) {
+           document.getElementById(p1).style.display="none";   
+                            
+        }
+        
+        function cerrarTodos() {
+		 
+		 cerrar('descripciontriangulo');
+		 cerrar('descripcioncuadrado');
+		 cerrar('descripcionpentagono');
+		 cerrar('descripcionhexagono');
+		 cerrar('descripcionheptagono');
+		 cerrar('descripcionoctogono');
+		 
+		 		 		 
+		}
+        
+        
+        
+</script>
+</head>
+
+<body>
+
+
+<div class="clasetriangulo">
+<img class= "tamanoAjustable" src="triangulorojo-celia.jpg"onclick="cerrarTodos(); mostrar('descripciontriangulo')">
+</div>
+
+
+<div class="clasecuadrado">
+<img class= "tamanoAjustable" src="cuadradoverde-celia.jpg" onclick="cerrarTodos(); mostrar('descripcioncuadrado')">
+</div>
+
+<div class="clasepentagono">
+<img class= "tamanoAjustable" src="pentagonoazul-celia.jpg" onclick="cerrarTodos(); mostrar('descripcionpentagono')">
+</div>
+
+<div class="clasehexagono">
+<img class= "tamanoAjustable" src="hexagonoamarillo-celia.jpg"onclick="cerrarTodos(); mostrar('descripcionhexagono')">
+</div>
+
+<div class="claseheptogono">
+<img class= "tamanoAjustable" src="heptagonovioleta-celia.jpg"onclick="cerrarTodos(); mostrar('descripcionheptagono')">
+</div>
+
+<div class="claseoctogono">
+<img class= "tamanoAjustable" src="octogononaranja-celia.jpg"onclick="cerrarTodos(); mostrar('descripcionoctogono')">
+</div>
+
+
+
+<div id="descripciontriangulo" style="display:none" class="claseDescripcion" >
+<p>El triángulo tiene tres lados. Sus ángulos suman 180 grados.<br>
+</p>
+</div>
+<div id="descripcioncuadrado" style="display:none" class="claseDescripcion">
+<p>El cuadrado tiene cuatro lados iguales que forman cuatro angulos rectos<br>
+</p>
+</div>
+
+<div id="descripcionpentagono" style="display:none" class="claseDescripcion">
+<p>El pentagono es un poligono de cinco lados  y cinco ángulos iguales.<br>
+</p>
+</div>
+
+<div id="descripcionhexagono" style="display:none" class="claseDescripcion">
+<p>El hexágono regular es un polígono convexo con seis lados y seis ángulos iguales.</br>
+</p>
+</div>
+
+<div id="descripcionheptagono" style="display:none" class="claseDescripcion">
+<p>El heptagono es un polígono de siete lados, siete angulos iguales. <br> </br>
+</p>
+</div>
+<div id="descripcionoctogono" style="display:none" class="claseDescripcion">
+<p>El octogono es un poligono regular de ocho lados y ocho ángulos iguales.<br> </br>
+</p>
+</div>
+
+	
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+.clasetriangulo {
+position: absolute;
+top:193px;
+left:78px
+ 
+}
+.clasecuadrado {
+position: absolute;
+top:390px;
+left:100px;
+ 
+}
+.clasepentagono {
+position: absolute;
+top:583px;
+left:168px;
+ 
+}
+.clasehexagono {
+position: absolute;
+top:773px;
+left:240px;
+ 
+}
+.claseheptagono {
+position: absolute;
+top:966px;
+left:310px;
+ 
+}
+.claseoctogono {
+position: absolute;
+top:1000px;
+left:380px;
+ 
+}
+
+
+.tamanoAjustable {
+width: auto;
+height: auto;
+}
+
+.claseDescripcion {
+border-width: 8px; 
+border-style: dashed;
+border-color: red; 
+background: lightgreen;
+top: 200px;
+position: absolute;
+top: 400px;
+left: 800px;
+
+}
+
